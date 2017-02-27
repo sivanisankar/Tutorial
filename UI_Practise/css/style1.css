@@ -1,0 +1,194 @@
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+body{
+	font-family: 'ITCAvantGardeGothicLTExtraLight_0';
+	*background-color: #cf804f;
+	*background-color:#FF9900;
+	color:#d7dade;
+
+	background: url(../images/bg1.jpg) no-repeat 0px 0px ;
+	background-attachment: fixed;
+	width:100%;
+	}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+@font-face {
+    font-family: 'ITCAvantGardeGothicLTExtraLight_0';
+    src: url('fonts/ITCAvantGardeGothicLTExtraLight_0.eot');
+    src: url('fonts/ITCAvantGardeGothicLTExtraLight_0.eot') format('embedded-opentype'),
+         url('fonts/ITCAvantGardeGothicLTExtraLight_0.woff2') format('woff2'),
+         url('fonts/ITCAvantGardeGothicLTExtraLight_0.woff') format('woff'),
+         url('fonts/ITCAvantGardeGothicLTExtraLight_0.ttf') format('truetype'),
+         url('fonts/ITCAvantGardeGothicLTExtraLight_0.svg#ITCAvantGardeGothicLTExtraLight_0') format('svg');
+}
+
+
+ul{
+margin:0;
+padding:0;
+}
+
+/*----*/
+.banner{
+
+min-height:720px;
+
+}
+.well{
+	margin-top:60px;
+	margin-left:35px;
+	margin-bottom: 60px;
+	font-size: 18px;
+}
+#prohibited{
+	margin-top:100px;
+	margin-left:35px;
+	margin-bottom: 60px;
+	font-size: 15px;
+	font-family: 'ITCAvantGardeGothicLTExtraLight_0';
+	padding:1;
+}
+#terms{
+	margin-top:100px;
+	margin-left:35px;
+	margin-bottom: 60px;
+	font-size: 15px;
+	font-family: 'ITCAvantGardeGothicLTExtraLight_0';
+	padding:1;
+}
+.copyright{
+	font-family: 'ITCAvantGardeGothicLTExtraLight_0';
+}
+
+.logo{
+float:left;
+}
+.logo a{
+display:inline-block;
+}
+.top-menu{
+float:right;
+}
+.top-menu ul li{
+display:inline-block;
+}
+.top-menu ul li a{
+color:#fff;
+font-size:1.1em;
+padding:1em 1em 0em 1em;
+text-decoration:none;
+
+font-weight:400;
+}
+.top-menu ul li a:hover{
+color:#0199e6;
+}
+.man
+{
+   display: block;
+   position: absolute;
+   margin-top:320px;
+   width:90%;
+   
+}
+.woman-small img
+{
+float:right;
+   }
+.man-small img
+{
+position: relative;
+}
+.truck-small img
+{
+position: relative;
+
+}
+.abc
+{
+   display: block;
+   position: absolute;
+   margin-top:100px;
+   
+}
+.a img
+{
+
+   position: relative;
+   }
+.b img
+{
+position: relative;
+}
+.c img
+{
+position: relative;
+}
+#about
+	{
+	*background-color: #cf804f;
+	*background: url(../images/banner.jpg) no-repeat 0px 0px;
+	
+	*background-color:#FF9900;
+	width:100%;
+	margin-top:250px;
+	}
+	
+	.about2 h1{
+	
+	text-align:center;
+	
+	font-size: 28px;
+	color:#d7dade;
+	font-family:'ITCAvantGardeGothicLTExtraLight_0';}
+	
+	
+	.about1 p
+	{
+	
+	text-align:center;
+	text-indent:20px;
+	font-size: 18px;
+	color:#d7dade;
+	font-family:'ITCAvantGardeGothicLTExtraLight_0';
+	
+	margin-top:50px;
+}
+.socialright
+{
+float:right;}
+#twitter
+{margin-top:-3px;}
+.copyright{
+	text-align:center;
+	height:18px;
+	
+
+}
+.copyright p{
+	font-size:14px;
+	margin-top:-3px;
+	color:white;
+	height:18px;
+	}
+.copyright p a{
+	color:#29323c;
+	text-decoration:none;
+	}
+.copyright p a:hover{
+	text-decoration:underline;
+	}
