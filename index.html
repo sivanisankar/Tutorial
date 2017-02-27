@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>New way to know yourself</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/header-user-dropdown.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+   
+
+   
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script src="js/jquery.snow.js"></script> 
+
+</head>
+
+<body>
+
+
+<!-- <script type="text/javascript" src="js/rain.js"></script> -->
+<header class="header-user-dropdown">
+
+	<div class="header-limiter">
+		<h1><a href="#">Way<span>To</span>Heaven</a></h1>
+
+		<nav>
+			<a href="index.html">Process1</a>
+			<a href="teddy.html">Process2</a>
+			<a href="#">Process3</a>
+			<a href="#">Process4 </a>
+		</nav>
+
+
+		<div class="header-user-menu">
+			<img src="assets/siva.jpg" alt="User Image"/>
+
+			<ul>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#" class="highlight">Logout</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+</header>
+
+<!-- The content of your page would go here.   -->
+
+<div class="information">
+		 	<div class="inform search">Happy Chocolate Day</div>
+		 	<div class="inform Select">Happy Chocolate Day</div>
+		 	<div class="inform Send">Happy Chocolate Day</div>
+		 </div>
+		<div id="div1"></div>
+		<div id="div2"></div>
+		<!-- class="navbar affix-top"-->
+		<div class="man">
+      <span class="man-small"><img id ="myImage" src="images/man.png" width="100%" height="100%" srcset="images/man.png 1500w"></span>
+	  <span class="truck-small"><img id ="myImage1" src="images/truck.png" srcset="images/truck.png 1000w"></span>
+	  <span class="woman-small"><img id ="myImage2" src="images/woman.png" srcset="images/woman.png 1400w"></span>
+   </div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+ 
+	$(document).ready(function(){
+	
+ siva(); 
+		var userMenu = $('.header-user-dropdown .header-user-menu');
+
+		userMenu.on('touchend', function(e){
+
+			userMenu.addClass('show');
+
+			e.preventDefault();
+			e.stopPropagation();
+
+		});
+
+		// This code makes the user dropdown work on mobile devices
+
+		$(document).on('touchend', function(e){
+
+			// If the page is touched anywhere outside the user menu, close it
+			userMenu.removeClass('show');
+
+		});
+
+	});
+
+</script>
+<footer class="navbar-default navbar-fixed-bottom"style="background:rgba(64,88,113,1);box-shadow: 5px 5px 10px 5px rgba(10, 10, 10, .10);min-height:80px;">
+
+	
+	 <div class="container">
+
+		 <div class="footer-left">
+			<!--<a href="#"><img src="images/24.png" alt=""/></a>-->
+		</div>
+		<div class="links">
+		<span class="link1"><a href="privacy.html"><span style="color:#d7dade;background:rgba(255,255,255);text-shadow: 5px 5px 10px 5px rgba(10, 10, 10, .10);">Privacy Policy</span></a></</span>
+		<span  class="link1"><a href="terms.html"><span style="color:#d7dade;background:rgba(255,255,255);text-shadow: 5px 5px 10px 5px rgba(10, 10, 10, .10);">Terms & Condition</span></a></</span>
+		<span  class="link1"><a href="faq.html"><span style="color:#d7dade;background:rgba(255,255,255);text-shadow: 5px 5px 10px 5px rgba(10, 10, 10, .10);">FAQs</span></a></</span>
+		<span  class="link1"><a href="prohibited.html"><span style="color:#d7dade;background:rgba(255,255,255);text-shadow: 5px 5px 10px 5px rgba(10, 10, 10, .10);">Prohibited items</span></a></</span>
+		</div>
+		
+		<div class="footericon">
+		<span class="icons"><img src="images/paytm.png" height="12.5" width="45"></span>
+		<span  class="icons"><img id="twitter" src="images/twitter.png" height="18" width="18"></span>
+		<span  class="icons"><a href="http://on.fb.me/1zPDDwR"><img  src="images/facebook.png" height="12.5" width="12.5"></a></span>
+		<span  class="icons"><img  src="images/android.png" height="12.5" width="12.5"></span>
+		</div>
+		
+	
+		<div class="copyright">
+		 <div class="copy-right wow bounceInUp" data-wow-delay="0.5s">
+			<p>Copyright Sivani Sankar 2016  <a href="#"></a></p>
+			</div>
+		</div>
+	</div>
+
+</footer>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	var div  = document.getElementById("div1");
+    var text = "Happy Chocolate Day";
+	var div2 = document.getElementById("div2");
+	var text2 = "Thanks:Same 2 U"
+	$("#myImage").click(function() {
+	 div.innerHTML = text;
+})
+	$("#myImage2").click(function() {
+	 div2.innerHTML = text2;
+})
+		setTimeout(function() {
+        console.log("hello");
+		
+		$(".search").animate({top: "-40%"});
+		$(".Select").animate({top: "40%"},"slow");
+		
+		
+			
+				$(".truck-small").delay(1000).show(function(){
+					$(".Select").animate({top: "-40%"});
+					$(".Send").animate({top: "40%"},"slow");
+					$(".truck-small").delay(1000).animate({left: "55%"},3000,function(){
+						$(".woman-small #myImage2").delay(5000).show();
+			
+			});
+			
+		});
+		
+    }, 2000);
+	setTimeout(function() {
+		
+		$(".truck-small").animate({left: "200px"},2000,function(){
+					$(".woman-small #myImage2").hide();
+			});
+		
+	}, 10000);
+		console.log($(window).height());
+		$(".man-small").width($(window).width() * 15.2 / 100);
+		$(".man-small").height($(".woman-small #myImage2").height());
+		$(".search").delay(500).animate({top: "40%"},"slow");
+		$(".truck-small").hide();
+		$(".woman-small #myImage2").hide();
+		
+	});
+	
+</script> 
+
+</html>
+
